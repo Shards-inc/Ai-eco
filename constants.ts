@@ -108,6 +108,15 @@ export const ENTERPRISE_REPO: RepoNode = {
       type: 'folder',
       children: [
         {
+          name: 'orchestration',
+          type: 'folder',
+          children: [
+            { name: 'swarm_logic.py', type: 'file', language: 'python' },
+            { name: 'crew_manager.py', type: 'file', language: 'python' },
+            { name: 'planner.py', type: 'file', language: 'python' }
+          ]
+        },
+        {
           name: 'tools',
           type: 'folder',
           children: [
@@ -135,6 +144,8 @@ export const ENTERPRISE_REPO: RepoNode = {
           type: 'folder',
           children: [
             { name: 'vpc.tf', type: 'file', language: 'hcl' },
+            { name: 'eks.tf', type: 'file', language: 'hcl' },
+            { name: 'security-groups.tf', type: 'file', language: 'hcl' },
             { name: 'iam.tf', type: 'file', language: 'hcl' },
             { name: 's3.tf', type: 'file', language: 'hcl' },
             { name: 'rds.tf', type: 'file', language: 'hcl' }
@@ -152,6 +163,20 @@ export const ENTERPRISE_REPO: RepoNode = {
       ]
     },
     {
+      name: 'apps',
+      type: 'folder',
+      children: [
+        {
+          name: 'copilot-api',
+          type: 'folder',
+          children: [
+            { name: 'main.py', type: 'file', language: 'python' },
+            { name: 'services/agent_service.py', type: 'file', language: 'python' }
+          ]
+        }
+      ]
+    },
+    {
       name: 'services',
       type: 'folder',
       children: [
@@ -159,6 +184,7 @@ export const ENTERPRISE_REPO: RepoNode = {
           name: 'auth-service',
           type: 'folder',
           children: [
+            { name: 'jwt_handler.py', type: 'file', language: 'python' },
             { name: 'models.py', type: 'file', language: 'python' },
             { name: 'schemas.py', type: 'file', language: 'python' }
           ]
@@ -167,8 +193,22 @@ export const ENTERPRISE_REPO: RepoNode = {
           name: 'billing-service',
           type: 'folder',
           children: [
+            { name: 'calculator.py', type: 'file', language: 'python' },
             { name: 'stripe_client.py', type: 'file', language: 'python' },
             { name: 'usage_tracker.py', type: 'file', language: 'python' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'mlops',
+      type: 'folder',
+      children: [
+        {
+          name: 'evaluation',
+          type: 'folder',
+          children: [
+            { name: 'rag_eval.py', type: 'file', language: 'python' }
           ]
         }
       ]
@@ -177,6 +217,7 @@ export const ENTERPRISE_REPO: RepoNode = {
       name: 'security',
       type: 'folder',
       children: [
+        { name: 'firewall_config.py', type: 'file', language: 'python' },
         { name: 'encryption_utils.py', type: 'file', language: 'python' },
         { name: 'audit_logger.py', type: 'file', language: 'python' }
       ]
@@ -185,6 +226,7 @@ export const ENTERPRISE_REPO: RepoNode = {
       name: 'docs',
       type: 'folder',
       children: [
+        { name: 'sovereignty-manifesto.md', type: 'file', language: 'markdown' },
         { name: 'api-spec.yaml', type: 'file', language: 'yaml' },
         { name: 'troubleshooting.md', type: 'file', language: 'markdown' }
       ]
