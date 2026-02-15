@@ -1,0 +1,10 @@
+[
+  {
+    "contract_id": "LGL-2026-XJ",
+    "parties": ["Shards Inc", "Global Tech Corp"],
+    "clauses": [
+      "Liability capped at 1.5x contract value.",
+      "Arbitration in Singapore under SIAC rules."
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "COMP-001",
+    "title": "Data Retention Policy",
+    "content": "All personally identifiable information must be purged after 24 months of inactivity unless legal hold applies.",
+    "department": "Legal"
+  },
+  {
+    "id": "COMP-002",
+    "title": "Agent Transparency Act",
+    "content": "All AI agents must clearly identify themselves as non-human entities in the first turn of any conversation.",
+    "department": "Ethics"
+  }
+]

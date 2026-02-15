@@ -1,0 +1,4 @@
+model:
+  id: "mistralai/Mistral-7B-v0.1"
+  type: "causal-lm"
+  quantization: "4bit"
