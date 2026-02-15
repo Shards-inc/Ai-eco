@@ -1,11 +1,23 @@
-<div align="center">
+# 🚀 enterprise-ai-platform
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Enterprise-grade, sovereign AI monorepo for production-scale multi-agent orchestration, model lifecycle management, and secure deployment.
 
-  <h1>Built with AI Studio</h2>
+## 🏗 Architecture
+- **apps/**: Production AI applications and gateways.
+- **agents/**: Autonomous agent swarms and orchestration logic.
+- **models/**: Model governance, fine-tuning, and quantization configs.
+- **infrastructure/**: IaC for GPU clusters and networking.
+- **mlops/**: Continuous training and deployment pipelines.
+- **security/**: AI-specific safety guardrails and red-teaming.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## ⚡ Quick Start
+```bash
+make install
+scripts/bootstrap.sh
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## 🛠 Tech Stack
+- **Foundation**: LLaMA 3, DeepSeek R1, Qwen 2.5
+- **Agents**: CrewAI, AutoGen, LangChain
+- **Infra**: Terraform, K8s, NVIDIA NeMo
+- **Database**: Qdrant, Milvus (Vector DB)

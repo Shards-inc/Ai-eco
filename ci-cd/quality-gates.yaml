@@ -1,0 +1,4 @@
+gates:
+  coverage: 85%
+  lint_errors: 0
+  critical_vulnerabilities: 0

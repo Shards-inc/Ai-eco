@@ -1,0 +1,4 @@
+monitoring:
+  alerts:
+    high_latency: 2000ms
+    low_accuracy: 0.7

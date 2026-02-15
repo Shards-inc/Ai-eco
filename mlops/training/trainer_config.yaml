@@ -1,0 +1,5 @@
+training:
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_steps: 500
+  batch_size: 16

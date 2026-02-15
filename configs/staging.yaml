@@ -1,0 +1,8 @@
+env: staging
+debug: false
+replica_count: 2
+database:
+  url: "staging-db.internal:5432"
+cache:
+  enabled: true
+  ttl: 3600

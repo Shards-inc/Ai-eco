@@ -1,0 +1,10 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "role": { "enum": ["user", "assistant", "system"] },
+      "content": { "type": "string" }
+    }
+  }
+}

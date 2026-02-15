@@ -1,0 +1,4 @@
+storage:
+  path: "/qdrant/storage"
+telemetry:
+  enabled: true

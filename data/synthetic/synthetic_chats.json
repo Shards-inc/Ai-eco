@@ -1,0 +1,4 @@
+[
+  {"role": "user", "content": "How do I deploy a K8s cluster?"},
+  {"role": "assistant", "content": "Use the provided Terraform scripts in /infrastructure."}
+]

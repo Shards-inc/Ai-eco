@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "latency_ms": { "type": "number" },
+    "token_count": { "type": "integer" },
+    "model_id": { "type": "string" }
+  }
+}

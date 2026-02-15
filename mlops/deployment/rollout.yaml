@@ -1,0 +1,7 @@
+strategy:
+  type: canary
+  steps:
+    - weight: 10
+      pause: 1h
+    - weight: 50
+      pause: 6h

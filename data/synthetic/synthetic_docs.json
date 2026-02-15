@@ -1,0 +1,3 @@
+[
+  {"title": "Internal Policy 1", "content": "All agents must log to Prometheus."}
+]

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "enterprise-ai-platform"
+version = "1.0.0"
+description = "Enterprise AI Orchestration"
+authors = ["AI Strategist <architect@shards.inc>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.0"
+crewai = "^0.1.0"
+langchain = "^0.1.0"
+torch = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

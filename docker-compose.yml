@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  gateway:
+    build: ./services/model-gateway
+    ports: ["8000:8000"]
+  vector-db:
+    image: qdrant/qdrant
+    ports: ["6333:6333"]
+  auth:
+    build: ./services/auth-service

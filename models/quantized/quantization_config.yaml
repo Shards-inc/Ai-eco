@@ -1,0 +1,4 @@
+method: "AWQ"
+bits: 4
+group_size: 128
+zero_point: true

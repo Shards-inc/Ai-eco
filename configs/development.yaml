@@ -1,0 +1,4 @@
+debug: true
+mock_external_apis: true
+database:
+  url: "localhost:5432"

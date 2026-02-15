@@ -1,0 +1,4 @@
+model:
+  id: "Qwen/Qwen1.5-72B-Chat"
+  params:
+    context_window: 32768

@@ -1,0 +1,4 @@
+benchmarks:
+  - fact: "Paris is the capital of France"
+    query: "What is the capital of France?"
+    target: "Paris"

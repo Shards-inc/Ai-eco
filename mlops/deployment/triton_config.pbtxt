@@ -1,0 +1,10 @@
+name: "llama-3-70b"
+platform: "ensemble"
+max_batch_size: 8
+input [
+  {
+    name: "input_ids"
+    data_type: TYPE_INT32
+    dims: [ -1 ]
+  }
+]

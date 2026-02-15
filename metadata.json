@@ -1,0 +1,8 @@
+{
+  "name": "AI Ecosystem Navigator 2026",
+  "description": "A high-performance interactive dashboard and strategy engine for the 2026 Open-Source AI ecosystem, featuring interactive map visualizations, tech stack builders, and a Gemini-powered strategist.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

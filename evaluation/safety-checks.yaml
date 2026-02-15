@@ -1,0 +1,3 @@
+safety:
+  toxic_threshold: 0.1
+  prohibited_topics: ["illegal", "harmful"]

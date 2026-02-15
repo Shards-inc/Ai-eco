@@ -1,0 +1,8 @@
+firewall:
+  allow_internal: true
+  public_access:
+    - 80
+    - 443
+  restricted_access:
+    - 22
+    - 5432

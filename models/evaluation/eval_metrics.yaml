@@ -1,0 +1,7 @@
+metrics:
+  - name: "hallucination_rate"
+    target: "< 0.05"
+  - name: "latency_p99"
+    target: "< 2.0s"
+  - name: "accuracy_gsm8k"
+    target: "> 0.85"

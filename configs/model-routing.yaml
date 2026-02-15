@@ -1,0 +1,5 @@
+routing:
+  default: "llama-3-70b"
+  reasoning_tasks: "deepseek-r1"
+  multilingual: "qwen-max"
+  fallback: "llama-3-8b"

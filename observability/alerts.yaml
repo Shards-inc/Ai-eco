@@ -1,0 +1,6 @@
+groups:
+- name: ai-alerts
+  rules:
+  - alert: HighLatency
+    expr: http_request_duration_seconds > 2
+    for: 5m

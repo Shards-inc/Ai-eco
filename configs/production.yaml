@@ -1,0 +1,10 @@
+env: production
+debug: false
+replica_count: 10
+autoscale:
+  min: 5
+  max: 50
+  cpu_threshold: 70
+security:
+  enforce_mfa: true
+  encryption_at_rest: true

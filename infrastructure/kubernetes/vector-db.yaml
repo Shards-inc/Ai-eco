@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: qdrant
+spec:
+  serviceName: "qdrant"
+  replicas: 1
+  template:
+    spec:
+      containers:
+      - name: qdrant
+        image: qdrant/qdrant:latest

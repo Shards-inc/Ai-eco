@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agent-worker
+spec:
+  replicas: 5
+  template:
+    spec:
+      containers:
+      - name: worker
+        image: enterprise-ai/agent-orchestrator:latest

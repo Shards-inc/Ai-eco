@@ -1,0 +1,5 @@
+rules:
+  - path: "/chat"
+    target: "llama-70b"
+  - path: "/debug"
+    target: "deepseek-33b"
