@@ -132,7 +132,7 @@ jobs:
           echo "validation_report_path=artifacts/data_validation_report.json" >> "$GITHUB_OUTPUT"
 
       - name: Upload validation artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: data-validation-report
           path: |
@@ -278,7 +278,7 @@ jobs:
           PY
 
       - name: Upload training artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: model-training
           path: |
@@ -355,7 +355,7 @@ jobs:
           echo "drift_status=$(python -c 'import json;print("true" if json.load(open("artifacts/drift_report.json"))["drift_detected"] else "false")')" >> "$GITHUB_OUTPUT"
 
       - name: Upload drift report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: drift-detection-report
           path: artifacts/drift_report.json
